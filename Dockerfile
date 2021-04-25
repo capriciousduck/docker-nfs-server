@@ -1,6 +1,4 @@
-ARG BUILD_FROM=alpine:latest
-
-FROM $BUILD_FROM
+FROM i386/alpine
 
 RUN apk --update --no-cache add bash nfs-utils && \
                                                   \
